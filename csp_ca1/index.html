@@ -6,6 +6,8 @@
     <meta charset="utf-8">
     <meta name="https://en.wikipedia.org/wiki/Web_browser" content="Diego Francisco">
     <meta name="Tweeked and simplified wiki page." content="A summary Web Browsers history and functions.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>img {max-width: 100%;height: auto;}</style>
     <title>Web Browser</title>
 <!-- METATAGS -->
 <!--Bootstrap-->>
@@ -18,8 +20,7 @@
 <body>
     <!-- Page header -->
     <header>
-        <h1 id="Web Browsers">Web Browsers</h1></br>
-            <section>
+        <section><h1 id="WebBrowsers">Web Browsers</h1></br>
             <p id="1">A <em>Web Browser</em> (also referred to as an Internet browser or simply a browser) is application software for accessing the <em>World Wide Web</em> or a local website. When a user requests a web page from a particular website, the web browser retrieves the necessary content from a web server and then displays the page on the user's device.<p>A web browser is not the same thing as a search engine, though the two are often confused. A search engine is a website that provides links to other websites. However, to connect to a website's server and display its web pages, a user must have a web browser installed.</p>
             Web browsers are used on a range of devices, including <i>desktops</i>, <i>laptops</i>, <i>tablets</i>, and <i>smartphones</i>. In 2020, an estimated 4.9 billion people used a browser. The most used browser is Google Chrome, with a 63% global market share on all devices, followed by Safari with 20%.</p>
             <figure>
@@ -28,7 +29,7 @@
             <strong>Web Browser displaying a webpage</strong>
             </figcaption>
             </figure>
-            </section>
+        </section>
         <nav>
             <ol>
                 <li><a href="#1"> Web Browser</a></li>
@@ -44,17 +45,17 @@
     <!-- Main page content -->
     <main>
         <section>
-            <p id="2"><h1><strong>Function</strong></h1></p>
+            <p id="2"><h2><strong>Function</strong></h2></p>
             The purpose of a web browser is to fetch content from the Web or from a local storage device and display it on a user's device. This process begins when the user inputs a <em>Uniform Resource Locator (URL)</em>, such as <a href="https://en.wikipedia.org/">Wikipedia</a>, into the browser. Virtually all URLs on the Web start with either http: or https: which means the browser will retrieve them with the <em>Hypertext Transfer Protocol (HTTP)</em>. In the case of secure mode (HTTPS), the communication between the browser and the web server is encrypted for the purposes of security and privacy. Once a web page has been retrieved, the browser's rendering engine displays it on the user's device. This includes image and video formats supported by the browser. Web pages usually contain hyperlinks to other pages and resources. Each link contains a URL, and when it is clicked or tapped, the browser navigates to the new resource. Thus the process of bringing content to the user begins again. Most browsers use an internal cache of web page resources to improve loading times for subsequent visits to the same page. The cache can store many items, such as large images, so they do not need to be downloaded from the server again. Cached items are usually only stored for as long as the web server stipulates in its HTTP response messages.</p>
         </section>
         <section>
-            <p id="3"><h1><strong>Settings</strong></h1></p>
+            <p id="3"><h2><strong>Settings</strong></h2></p>
             Web browsers can typically be configured with a built-in menu. Depending on the browser, the menu may be named Settings, Options, or Preferences. The menu has different types of settings. For example, users can change their home page and default search engine. They also can change default web page colors and fonts. Various network connectivity and privacy settings are also usually available.              
-            <p><h2><i>Privacy</i></h2></p>
+            <p><h3><i>Privacy</i></h3></p>
             During the course of browsing, cookies received from various websites are stored by the browser. Some of them contain login credentials or site preferences. However, others are used for tracking user behavior over long periods of time, so browsers typically provide a section in the menu for deleting cookies. Finer-grained management of cookies usually requires a browser extension. Browsers also usually provide menu items for deleting browsing history, cache entries, and other potentially sensitive data. An alternative approach is the private browsing mode, in which the aforementioned items are not stored by the browser. But this is a temporary option, only activated when using this special mode.</p>
         </section>
         <section>
-            <p id="4"><h1><strong>Features</strong></h1></p>
+            <p id="4"><h2><strong>Features</strong></h2></p>
             The most popular browsers have a number of features in common. They automatically log browsing history or can be used in a non-logging private mode. They also allow users to set bookmarks, customize the browser with extensions, and can manage user passwords. Some provide a sync service and web accessibility features.</p>
         <figure>
             <img class="wikipedia-welcome" src="https://upload.wikimedia.org/wikipedia/commons/2/23/Wikipedia_Homepage_Chromium_Web_browser_36.png" alt="Traditional browser arrangement">
@@ -71,11 +72,11 @@
             <li>Most popular desktop browsers also have sophisticated web development tools. Besides the common usage of graphical browsers, there are niche text-based and headless types of browsers.</li></p>
         </section>
         <section>
-            <p id="5"><h1><strong>Security</strong></h1></p>
+            <p id="5"><h2><strong>Security</strong></h2></p>
                 Web browsers are popular targets for hackers, who exploit security holes to steal information, destroy files, and other malicious activities. Browser vendors regularly patch these security holes, so users are strongly encouraged to keep their browser software updated. Other protection measures are antivirus software and avoiding known-malicious websites.    
         </section>
         <section>
-            <p id="6"><h1><strong>History</strong></h1></p>
+            <p id="6"><h2><strong>History</strong></h2></p>
                 The first web browser, called <i>WorldWideWeb</i>, was created in 1990 by <em>Sir Tim Berners-Lee</em>. He then recruited <em>Nicola Pellow</em> to write the <i>Line Mode Browser</i>, which displayed web pages on dumb terminals.
         <figure>
             <img class="LineModeBrowser-Devs" src="https://upload.wikimedia.org/wikipedia/commons/5/5a/NPellow.jpg" alt="Nicola Pellow and Tim Berners-Lee in 1992">
@@ -93,7 +94,7 @@
         </section>
         <section>
             <!-- Link for full research on market share posted in Wikipedia --> 
-            <a href="https://en.wikipedia.org/wiki/Usage_share_of_web_browsers"><p id="7"><h2><em></p>Market Share</p></em></h2></a>
+            <a href="https://en.wikipedia.org/wiki/Usage_share_of_web_browsers"><p id="7"><h3><em></p>Market Share</p></em></h3></a>
                 <table>
                     <thead>
                         <tr>
@@ -117,7 +118,8 @@
                         </tr>
                             <td>Opera</td><td>1.01</td>
                     </table>
-                    <caption><sup>Information collected at October 21st, 2021</sup></caption>
+                    <!--The link in the line 97 is working, but when tried to be accessed on the preview page inside this web application it is blocked. It should work on a real browser, but no further testing has been conducted.-->
+                    <caption><sup>The data above has been collected by Wikipedia at October 21st, 2021. A link with the updated page has been inserted on the header for further details and updated information.</sup></caption>
             </p>    
         </section>
     </main>

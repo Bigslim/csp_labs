@@ -1,4 +1,5 @@
 @charset "UTF-8";
+/*This root elements has been imported from samples downloaded during the class as it provides solid ground for further "tweeking".*/
 :root {
     --bs-blue: #0d6efd;
     --bs-indigo: #6610f2;
@@ -52,7 +53,7 @@
     --bs-body-color: #212529;
     --bs-body-bg: #fff;
   }
-  
+  /*The important body elements used in the .html also has been imported from the sample but only minor changes has been made as if the layout from getbootstrap.com suits the purpose of the exercise.*/
   body {
     margin: 1;
     font-family: var(--bs-body-font-family);
@@ -149,37 +150,37 @@ sup {
 }
 
 sub {
-  bottom: -0.25em;
+  bottom: -0.5em;
 }
 
 sup {
-  top: -0.5em;
+  top: -0.25em;
 }
 
 .chromium {
-    min-width: 640px;  
-    max-width: 640px;
+    min-width: auto;  
+    max-width: auto;
       min-height: auto;
       max-height: auto;
   }
 
 .wikipedia-welcome {
-    min-width: 640px;  
-    max-width: 640px;
+    min-width: auto;  
+    max-width: auto;
       min-height: auto;
       max-height: auto;
  }
 
  .LineModeBrowser-Devs {
-    min-width: 640px;  
-    max-width: 640px;
+    min-width: auto;  
+    max-width: auto;
       min-height: auto;
       max-height: auto;
  }
 
  .MarcAndreessen-Mosaic {
-    min-width: 640px;  
-    max-width: 640px;
+    min-width: auto;  
+    max-width: auto;
       min-height: auto;
       max-height: auto;
  }
